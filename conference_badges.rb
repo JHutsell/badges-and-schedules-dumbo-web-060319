@@ -9,7 +9,8 @@ def batch_badge_creator(names)
 end
 
 def assign_rooms(names)
-  names.each_with_index do |name|
-    
+  assigned_rooms = []
+  names.each_with_index do |name, idx|
+    assigned_rooms << ""
   end
 end
